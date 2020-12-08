@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kontakt | Pet Shop Rott</title>
+    <link rel="stylesheet" type="text/css" href="styles/style.css">
+    <link rel="stylesheet" type="text/css" href="styles/styleKontakt.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+</head>
+<body>
+    <script src="js/jsDatum.js"></script>
+
+    <div class="header">
+        <h1><t>Pet Shop Rott</h1>
+        <h2><i>Najbolje za Vaše ljubimce</i></h2>  
+      </div>
+    <div class="meni">
+        <a href="index.html">Proizvodi</a>
+        <a href="o_nama.html">O nama</a>
+        <a href="udomljavanje.html">Udomljavanje</a>
+        <a class="active" href="kontakt.html">Kontakt</a>
+    </div>
+    
+    <div  id="naslovK">
+    <h1>Pišite nam</h1>
+    </div>   
+<hr><br>
+<div id="kontakt">
+    <div id="forma" onsubmit="return validateForm()" method="post">
+        <form>
+            <p id="err"></p>
+
+        <label>Ime i prezime</label><br>
+        <input type="text" id="ime"><br>
+        <label>E-mail</label><br>
+        <input type="text" id="email"><br>
+        <label>Naslov poruke</label><br>
+        <input type="text" id="naslovPoruke"><br>
+        <label>Tekst poruke</label><br>
+        <textarea cols="65" rows="5" id="poruka"></textarea><br>
+
+        
+        <div><input type="checkbox" id="obavestenja" name="obavestenja" value="Da">
+            <label for="obavestenja">Želim da primam obaveštenja o promocijama Rott-a</label></div><br>
+        <input type="submit" value="Pošalji poruku" id="dugme">
+      </form> 
+      <br>
+    </div>
+    <div id="lokacija">
+        <h3>Možete nas naći na sledećim lokacijama</h3>
+        <div id=accordion>
+        <h3>Kondina 24</h3>
+        <p>
+        011/32 44 528 <br>
+        Ponedeljak - Petak: 09.00 - 20.30h<br>
+        Subota : 09.00 - 16.00h</p>
+      
+        <h3>Katićeva 4</h3>
+        <p>011/26 41 451<br>
+        Ponedeljak - Petak: 9:00-20:30h<br>
+        Subota: 9:00 -16:00h</p>
+        
+        <h3>Masarikov trg 8a - Zemunski kej</h3>
+        <p>011/31 62 426, 065/31 62 426<br>
+        Ponedeljak - Subota: 09:00-20:00h<br>
+        Nedelja: 09:00-14:00h</p>
+        
+        <h3>Masarikov trg 9, Zemunska pijaca</h3>
+        <p>063/55 55 565 <br>
+        Utorak - Nedelja: 09.00 - 15.00h<br>
+        Ponedeljak : Ne radi</p>
+        
+    </div>
+    </div>
+</div>
+<div class="footer">
+    <a href="https://www.instagram.com/rottpetshop/" target="_blank"><img src="img/instagram1.png" height="50px" width="50px"></a>
+    <a href="https://www.facebook.com/petshoprott" target="_blank"><img src="img/facebook.png" height="45px" width="45px"></a>
+    <p id="datum"></p>
+</div>
+<script src="js/javascript.js"></script>
+</body>
+</html>

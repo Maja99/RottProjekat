@@ -1,0 +1,148 @@
+#proizvodi {
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr 1fr; 
+   /*grid-template-columns: auto auto auto; */
+   justify-content: center;
+   grid-gap: 1em;
+   /*margin: 10px;*/
+}
+
+@media all and (max-width:1080px) {
+    #proizvodi {
+        grid-template-columns: auto auto auto;
+    }
+}
+@media all and (max-width:700px) {
+    #proizvodi {
+        grid-template-columns: auto auto;
+    }
+}
+@media all and (max-width:400px) {
+    #proizvodi {
+        grid-template-columns: auto;
+    }
+}
+
+#naslov {
+    text-align: center;
+}
+
+#proizvodi-dete1:hover {
+    border: 1px solid #777;
+    border-radius: 5%;
+
+}
+#proizvodi-dete1 {
+    text-align: center;
+   
+}
+
+#proizvodi-dete2:hover {
+    border: 1px solid #777;
+    border-radius: 5%;
+
+}
+#proizvodi-dete2 {
+    text-align: center;
+   
+   
+}
+
+#proizvodi-dete3:hover {
+    border: 1px solid #777;
+    border-radius: 5%;
+
+
+}
+#proizvodi-dete3 {
+    text-align: center;
+   
+}
+#proizvodi-dete4:hover {
+    border: 1px solid #777;
+    border-radius: 5%;
+
+}
+#proizvodi-dete4 {
+    text-align: center;
+   
+}
+#proizvodi-dete5:hover {
+    border: 1px solid #777;
+    border-radius: 5%;
+
+}
+#proizvodi-dete5 {
+    text-align: center;
+   
+}
+#proizvodi-dete6:hover {
+    border: 1px solid #777;
+    border-radius: 5%;
+
+}
+#proizvodi-dete6 {
+    text-align: center;
+   
+}
+
+#proizvodi-dete7:hover {
+    border: 1px solid #777;
+    border-radius: 5%;
+
+}
+#proizvodi-dete7 {
+    text-align: center;
+   
+}
+
+#proizvodi-dete8:hover {
+    border: 1px solid #777;
+    border-radius: 5%;
+
+}
+#proizvodi-dete8 {
+    text-align: center;
+   
+}
+
+#proizvodi-dete9:hover {
+    border: 1px solid #777;
+    border-radius: 5%;
+
+}
+#proizvodi-dete9 {
+    text-align: center;
+   
+}
+
+
+#proizvodi-dete10:hover {
+    border: 1px solid #777;
+    border-radius: 5%;
+
+}
+#proizvodi-dete10 {
+    text-align: center;
+   
+}
+
+#proizvodi-dete11:hover {
+    border: 1px solid #777;
+    border-radius: 5%;
+
+}
+#proizvodi-dete11 {
+    text-align: center;
+   
+}
+
+#proizvodi-dete12:hover {
+    border: 1px solid #777;
+    border-radius: 5%;
+
+}
+#proizvodi-dete12 {
+    text-align: center;
+   
+}
